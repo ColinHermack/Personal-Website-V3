@@ -88,9 +88,9 @@ export default function Blog({ params }) {
       <h1 className="title font-semibold text-2xl tracking-tighter">
         {post.metadata.title}
       </h1>
-      <div className='mt-4 text-xl text-gray-600 flex flex-row content-left items-center'>
-        {post.metadata.github ? <div className='hover:text-gray-800 mr-8'><Link href={post.metadata.github}><FaGithub /></Link></div> : null}
-        {post.metadata.deployment ? <div className='hover:text-gray-800'><Link href={post.metadata.deployment}><FaServer /></Link></div> : null}
+      <div className='mt-4 text-xl flex flex-row content-left items-center'>
+        {post.metadata.github ? <div className='hover:text-neutral-600 mr-8 transition-all'><Link href={post.metadata.github}><FaGithub /></Link></div> : null}
+        {post.metadata.deployment ? <div className='hover:text-neutral-600 transition-all'><Link href={post.metadata.deployment}><FaServer /></Link></div> : null}
       </div>
       <p className='mt-4 mb-4'>{post.metadata.summary}</p>
       <article className="prose">

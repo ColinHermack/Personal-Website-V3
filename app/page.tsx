@@ -22,13 +22,13 @@ export default function Page() {
         in computer security and experienced in full-stack software development. I'm also a teaching assistant
         for the Data Mine learning community here at Purdue and enjoy teaching others about data science and math.`}
       </p>
-      <h2 className='text-xl font-semibold tracking-tight mb-4'>Recent Projects</h2>
+      <h2 className='text-xl font-semibold tracking-tight mb-4 mt-4'>Recent Projects</h2>
       <RecentProjects numProjects={3} />
-      <h2 className='text-xl font-semibold tracking-tight mb-4'>Contact</h2>
+      <h2 className='text-xl font-semibold tracking-tight mb-4 mt-4'>Contact</h2>
       <p>Check out my GitHub page, LinkedIn profile, or send me an email here.</p>
-      <div className='flex flex-row content-left items-center mt-5 mb-5 text-gray-600'>
+      <div className='flex flex-row content-left items-center mt-5 mb-5 text-slate-800'>
         <a
-              className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+              className="flex items-center transition-all hover:text-neutral-600 dark:text-white dark:hover:text-blue-200"
               rel="noopener noreferrer"
               target="_blank"
               href="https://www.github.com/colinhermack"
@@ -36,7 +36,7 @@ export default function Page() {
               <p className="text-3xl"><FaGithub /></p>
         </a>
         <a
-              className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+              className="flex items-center transition-all hover:text-neutral-600 dark:text-white dark:hover:text-blue-200"
               rel="noopener noreferrer"
               target="_blank"
               href="https://www.linkedin.com/in/colinhermack/"
@@ -44,7 +44,7 @@ export default function Page() {
               <p className="ml-10 text-3xl"><FaLinkedin /></p>
         </a>
         <a
-              className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+              className="flex items-center transition-all hover:text-neutral-600 dark:text-white dark:hover:text-blue-200"
               rel="noopener noreferrer"
               target="_blank"
               href="mailto:colinhermack@gmail.com"

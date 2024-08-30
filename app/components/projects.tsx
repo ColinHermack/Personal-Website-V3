@@ -19,11 +19,11 @@ export function Projects() {
                 className="flex flex-col space-y-1 mb-4"
                 href={`/projects/${post.slug}`}
               >
-                <div className="w-full flex flex-col">
-                  <h2 className="text-neutral-900 font-semibold dark:text-neutral-100 tracking-tight">
+                <div className="w-full flex flex-col rounded transition-all duration-300 pt-2 pb-2 hover:bg-neutral-300/25 hover:pl-2 hover:shadow dark:hover:bg-neutral-500/10">
+                  <h2 className="font-semibold dark:text-neutral-100 tracking-tight">
                     {post.metadata.title}
                   </h2>
-                  <p>{post.metadata.summary}</p>
+                  <p className='max-w-[95%]'>{post.metadata.summary}</p>
                 </div>
               </Link>
             ))}
@@ -48,17 +48,17 @@ export function RecentProjects(props: IRecentProjectProps) {
                 
               })
             .slice(0, props.numProjects)
-            .map((post) => (
+            .map((project) => (
               <Link
-                key={post.slug}
-                className="flex flex-col space-y-1 mb-4"
-                href={`/projects/${post.slug}`}
+                key={project.slug}
+                className="flex flex-col space-y-1 mb-1"
+                href={`/projects/${project.slug}`}
               >
-                <div className="w-full flex flex-col">
-                  <h2 className="text-neutral-900 font-semibold dark:text-neutral-100 tracking-tight">
-                    {post.metadata.title}
+                <div className="w-full flex flex-col rounded transition-all duration-300 pt-2 pb-2 hover:bg-neutral-300/25 hover:pl-2 hover:shadow dark:hover:bg-neutral-500/10">
+                  <h2 className="font-semibold dark:text-white tracking-tight">
+                    {project.metadata.title}
                   </h2>
-                  <p>{post.metadata.summary}</p>
+                  <p className='max-w-[95%]'>{project.metadata.summary}</p>
                 </div>
               </Link>
             ))}
