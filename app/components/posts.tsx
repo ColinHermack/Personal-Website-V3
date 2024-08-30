@@ -34,7 +34,3 @@ export function BlogPosts() {
     </div>
   )
 }
-
-export function Projects() {
-  
-}

@@ -12,7 +12,7 @@ export default function Footer() {
             target="_blank"
             href="https://github.com/ColinHermack"
           >
-            <p className="ml-2 h-10 text-xl"><FaGithub /></p>
+            <p className="h-10 text-xl"><FaGithub /></p>
           </a>
         </li>
         <li>
@@ -22,12 +22,12 @@ export default function Footer() {
             target="_blank"
             href="https://www.linkedin.com/in/colinhermack/"
           >
-            <p className="ml-2 h-7 text-xl"><FaLinkedin /></p>
+            <p className="h-7 text-xl"><FaLinkedin /></p>
           </a>
         </li>
       </ul>
       <p className="mt-8 text-neutral-600 dark:text-neutral-300">
-        © 2024 Colin Hermack
+        © 2024 MIT Licensed
       </p>
     </footer>
   )

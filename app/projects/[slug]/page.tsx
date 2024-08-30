@@ -1,25 +1,28 @@
 import { notFound } from 'next/navigation'
 import { CustomMDX } from 'app/components/mdx'
-import { formatDate, getBlogPosts } from 'app/blog/utils'
+import { getProjects } from 'app/projects/utils'
 import { baseUrl } from 'app/sitemap'
+import Link from 'next/link'
+import { FaGithub } from 'react-icons/fa';
+import { FaServer } from 'react-icons/fa';
 
 export async function generateStaticParams() {
-  let posts = getBlogPosts()
+  let projects = getProjects()
 
-  return posts.map((post) => ({
-    slug: post.slug,
+  return projects.map((curr) => ({
+    slug: curr.slug,
   }))
 }
 
 export function generateMetadata({ params }) {
-  let post = getBlogPosts().find((post) => post.slug === params.slug)
+  let post = getProjects().find((post) => post.slug === params.slug)
   if (!post) {
     return
   }
 
   let {
     title,
-    publishedAt: publishedTime,
+    completedOn: publishedTime,
     summary: description,
     image,
   } = post.metadata
@@ -52,7 +55,7 @@ export function generateMetadata({ params }) {
 }
 
 export default function Blog({ params }) {
-  let post = getBlogPosts().find((post) => post.slug === params.slug)
+  let post = getProjects().find((post) => post.slug === params.slug)
 
   if (!post) {
     notFound()
@@ -68,8 +71,8 @@ export default function Blog({ params }) {
             '@context': 'https://schema.org',
             '@type': 'BlogPosting',
             headline: post.metadata.title,
-            datePublished: post.metadata.publishedAt,
-            dateModified: post.metadata.publishedAt,
+            datePublished: post.metadata.completedOn,
+            dateModified: post.metadata.completedOn,
             description: post.metadata.summary,
             image: post.metadata.image
               ? `${baseUrl}${post.metadata.image}`
@@ -77,7 +80,7 @@ export default function Blog({ params }) {
             url: `${baseUrl}/blog/${post.slug}`,
             author: {
               '@type': 'Person',
-              name: 'My Portfolio',
+              name: 'Colin Hermack',
             },
           }),
         }}
@@ -85,11 +88,11 @@ export default function Blog({ params }) {
       <h1 className="title font-semibold text-2xl tracking-tighter">
         {post.metadata.title}
       </h1>
-      <div className="flex justify-between items-center mt-2 mb-8 text-sm">
-        <p className="text-sm text-neutral-600 dark:text-neutral-400">
-          {formatDate(post.metadata.publishedAt)}
-        </p>
+      <div className='mt-4 text-xl text-gray-600 flex flex-row content-left items-center'>
+        {post.metadata.github ? <div className='hover:text-gray-800 mr-8'><Link href={post.metadata.github}><FaGithub /></Link></div> : null}
+        {post.metadata.deployment ? <div className='hover:text-gray-800'><Link href={post.metadata.deployment}><FaServer /></Link></div> : null}
       </div>
+      <p className='mt-4 mb-4'>{post.metadata.summary}</p>
       <article className="prose">
         <CustomMDX source={post.content} />
       </article>

@@ -1,0 +1,100 @@
+[
+    {
+        "Semester": 1,
+        "Coursework": 
+        [
+            {
+                "Number": "CS180",
+                "Name": "Problem Solving and Object-Oriented Programming",
+                "Description": "Introduction to programming in Java."
+            },
+            {
+                "Number": "MA261",
+                "Name": "Multivariate Calculus",
+                "Description": "Planes, lines, and curves in three dimensions. Differential calculus of several variables; multiple integrals. Vector calculus."
+            },
+            {
+                "Number": "SPAN201",
+                "Name": "Spanish III",
+                "Description": "Intermediate Spanish conversation and writing."
+            },
+            {
+                "Number": "CS193",
+                "Name": "Tools",
+                "Description": "Introduction to various computer science related tools."
+            },
+            {
+                "Number": "TDM101",
+                "Name": "The Data Mine Seminar I",
+                "Description": "Introduction to data science in R."
+            }
+        ]
+    },
+    {
+        "Semester": 2,
+        "Coursework": 
+        [
+            {
+                "Number": "CS182",
+                "Name": "Foundations of Computer Science",
+                "Description": "Discrete Mathematics."
+            },
+            {
+                "Number": "CS240",
+                "Name": "Programming in C",
+                "Description": "Programming in C."
+            },
+            {
+                "Number": "MA351",
+                "Name": "Elementary Linear Algebra",
+                "Description": "Systems of linear equations, finite dimensional vector spaces, matrices, determinants, eigenvalues and eigenvector applications to analytical geometry. Generally non-proof based."
+            },
+            {
+                "Number": "CM100",
+                "Name": "Introduction to Construction",
+                "Description": "A survey of the construction industry."
+            },
+            {
+                "Number": "TDM201",
+                "Name": "The Data Mine Seminar II",
+                "Description": "Introduction to data science in Python."
+            }
+        ]
+    },
+    {
+        "Semester": 3,
+        "Coursework": 
+        [
+            {
+                "Number": "CS250",
+                "Name": "Computer Architecture",
+                "Description": "Digital logic, processors, memory, input/output, computer design."
+            },
+            {
+                "Number": "CS251",
+                "Name": "Data Structures and Algorithms",
+                "Description": "Runtime analysis, data structures, trees, searching and sorting, heaps, hashing, strings, graphs."
+            },
+            {
+                "Number": "MA353",
+                "Name": "Linear Algebra II with Applications",
+                "Description": "Advanced, proof-based linear algebra."
+            },
+            {
+                "Number": "COM217",
+                "Name": "Science Writing and Presentation",
+                "Description": "Public speaking for engineering and science majors."
+            },
+            {
+                "Number": "CS291",
+                "Name": "Sophomore Development Seminar",
+                "Description": "Seminar on career development in computer science fields."
+            },
+            {
+                "Number": "TDM201",
+                "Name": "The Data Mine Seminar III",
+                "Description": "More advanced data science using bash and SQL."
+            }
+        ]
+    }
+]

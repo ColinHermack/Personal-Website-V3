@@ -1,0 +1,87 @@
+{
+    "Description": "Computer science and mathematics student seeking internship opportunities for summer 2025",
+    "Education": 
+    [
+        {
+            "Institution": "Purdue University",
+            "Degree": "Computer Science, BS",
+            "Start": "Aug 2023",
+            "End": "Dec 2026",
+            "Notes": 
+            [
+                "Member of and TA for the Data Mine learning community",
+                "Webmaster for Purdue Outing Club"
+            ]
+        },
+        {
+            "Institution": "Purdue University",
+            "Degree": "Mathematics, BS",
+            "Start": "Aug 2023",
+            "End": "Dec 2026",
+            "Notes": []
+        },
+        {
+            "Institution": "Lenape High School",
+            "Degree": "High School Diploma",
+            "Start": "Sep 2019",
+            "End": "Jun 2023",
+            "Notes": []
+        }
+    ],
+    "Experience": 
+    [
+        {
+            "Title": "Teaching Assistant",
+            "Company": "The Data Mine — Purdue University",
+            "Location": "West Lafayette, IN",
+            "Start": "Aug 2024",
+            "End": "Present",
+            "Notes":
+            [
+                "Grade student assignments weekly",
+                "5-10 hours per week during the academic year"
+            ]
+        },
+        {
+            "Title": "Software Engineering Intern",
+            "Company": "W.R. Berkley Corporation",
+            "Location": "Moorestown, NJ",
+            "Start": "Jun 2024",
+            "End": "Aug 2024",
+            "Notes": 
+            [
+                "Worked with a team of interns and engineers to build a full-stack application for monitoring overnight job progress",
+                "Utilized agile methodologies and Scrum framework"
+            ]
+        },
+        {
+            "Title": "Restaurant Crew Member",
+            "Company": "Skyler's Hoagies",
+            "Location": "Mount Laurel, NJ",
+            "Start": "Jun 2020",
+            "End": "Aug 2023",
+            "Notes":
+            [
+                "Maintained a positive customer experience in a fast-paced foodservice environment",
+                "Trained employees"
+            ]
+        }
+    ],
+    "Skills":
+    [
+        "Full-Stack Software Engineering",
+        "Software Deployment",
+        "Java",
+        "Python",
+        "C",
+        "JavaScript",
+        "TypeScript",
+        "NodeJS",
+        ".NET Core",
+        "ReactJS",
+        "SQL",
+        "Entity Framework",
+        "Agile",
+        "Scrum"
+    ]
+}
