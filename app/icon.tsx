@@ -15,16 +15,17 @@ export default function Icon() {
       <div
         style={{
           fontSize: 24,
-          background: 'black',
+          fontWeight: '700',
+          background: 'slate-900',
           width: '100%',
           height: '100%',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          color: 'white',
+          color: 'neutral-300',
         }}
       >
-        A
+        C
       </div>
     ),
     // ImageResponse options
