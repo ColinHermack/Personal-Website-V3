@@ -96,5 +96,36 @@
                 "Description": "More advanced data science using bash and SQL."
             }
         ]
+    },
+    {
+        "Semester": 4,
+        "Coursework": 
+        [
+            {
+                "Number": "CS252",
+                "Name": "Systems Programming",
+                "Description": "Program generation, representation, and transformation, scripting, UNIX systems programming and file systems, threads and synchronization, network programming."
+            },
+            {
+                "Number": "MA341",
+                "Name": "Foundations of Analysis",
+                "Description": "Real numbers, sequences, series, continous function, differentiation, Riemann integration."
+            },
+            {
+                "Number": "STAT350",
+                "Name": "Introduction to Statistics",
+                "Description": "Standard intro-level statistics class."
+            },
+            {
+                "Number": "EAPS 327",
+                "Name": "Climate, Science, and Society",
+                "Description": ""
+            },
+            {
+                "Number": "TDM202",
+                "Name": "The Data Mine Seminar IV",
+                "Description": "Web scraping and plotting with Python."
+            }
+        ]
     }
 ]
