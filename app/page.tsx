@@ -32,7 +32,7 @@ export default function Page() {
               rel="noopener noreferrer"
               target="_blank"
               href="https://www.github.com/colinhermack"
-            >
+        >
               <p className="text-3xl"><FaGithub /></p>
         </a>
         <a
