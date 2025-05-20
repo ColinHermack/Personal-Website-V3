@@ -127,5 +127,31 @@
                 "Description": "Web scraping and plotting with Python."
             }
         ]
+    },
+    {
+        "Semester": 5,
+        "Coursework": 
+        [
+            {
+                "Number": "CS354",
+                "Name": "Operating Systems",
+                "Description": "Introduction to operating systems. Computer system and operating system architectures, processes, inter-process communication, inter-process synchronization, mutual exclusion, deadlocks, memory hierarchy, virtual memory, CPU scheduling, file systems, I/O device management, security."
+            },
+            {
+                "Number": "CS348",
+                "Name": "Information Systems",
+                "Description": "File organization and index structures; object-oriented database languages; the relational database model with introductions to SQL and DBMS; hierarchical models and network models with introductions to HDDL, HDML, and DBTG Codasyl; data mining; data warehousing; database connectivity; distributed databases; the client/server paradigm; middleware, including ODBC, JDBC, CORBA, and MOM."
+            },
+            {
+                "Number": "MA366",
+                "Name": "Differential Equations",
+                "Description": "An introduction to ordinary differential equations with emphasis on problem solving and applications."
+            },
+            {
+                "Number": "TDM301", 
+                "Name": "The Data Mine Seminar V",
+                "Description": "Introduction to neural networks, hyperparameter tuning, computer vision, and ethics in neural networks."
+            }
+        ]
     }
 ]

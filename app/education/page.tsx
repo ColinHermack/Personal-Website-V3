@@ -11,7 +11,7 @@ export default async function Page() {
     <>
       <h1 className="font-semibold text-2xl tracking-tight mb-2">Education</h1>
       <p className='mb-8'>
-        An exhaustive list of the classes I have taken or am currently taking at Purdue University.
+        A list of the classes I have taken or am currently taking at Purdue University.
       </p>
       {classData.map((curr) => {
         return (
