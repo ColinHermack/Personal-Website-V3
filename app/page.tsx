@@ -18,9 +18,9 @@ export default function Page() {
         alt='Picture of Colin Hermack'
       />
       <p className="mb-4">
-        {`I'm a second-year computer science and mathematics student at Purdue University. I'm interested
-        in computer security and experienced in full-stack software development. I'm also a teaching assistant
-        for the Data Mine learning community here at Purdue and enjoy teaching others about data science and math.`}
+        I'm a third year computer science and math student at Purdue University. I'm interested in computer security and experienced in full-stack
+        software engineering. I'm currently working as a software engineering intern at W.R. Berkley Corporation and as a web developer for Purdue's
+        College of Science. I'll also be a teaching assistant for the Data Mine at Purdue in the fall.
       </p>
       <h2 className='text-xl font-semibold tracking-tight mb-4 mt-4'>Recent Projects</h2>
       <RecentProjects numProjects={3} />
