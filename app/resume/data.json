@@ -1,5 +1,5 @@
 {
-    "Description": "Computer science and mathematics student seeking internship opportunities for summer 2025",
+    "Description": "Software engineering intern at W.R. Berkely Corp. Computer science and mathematics student at Purdue.",
     "Education": 
     [
         {
@@ -30,6 +30,19 @@
     ],
     "Experience": 
     [
+        {
+            "Title": "Software Engineering Intern",
+            "Company": "W.R. Berkley Corporation",
+            "Location": "Moorestown, NJ",
+            "Start": "June 2025",
+            "End": "Present",
+            "Notes": 
+            [
+                "Implemented a software development kit in .NET Standard for the the integration of monitoring with remote job source code",
+                "Wrote end-to-end testing suite protecting critical infrastructure for internal tools supporting $100 million+ per month in insurance sales",
+                "Utilized agile methodology and the Kanban framework while working in an engineering team."
+            ]
+        },
         {
             "Title": "Teaching Assistant",
             "Company": "The Data Mine — Purdue University",
