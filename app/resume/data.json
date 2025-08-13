@@ -44,6 +44,17 @@
             ]
         },
         {
+            "Title": "Web Designer",
+            "Company": "Purdue University College of Science",
+            "Location": "Remote",
+            "Start": "May 2025",
+            "End": "Present",
+            "Notes": 
+            [
+                "Design new webpages and maintain current webpages for the career services division of the Purdue College of Science"
+            ]
+        },
+        {
             "Title": "Teaching Assistant",
             "Company": "The Data Mine — Purdue University",
             "Location": "West Lafayette, IN",
@@ -95,6 +106,8 @@
         "SQL",
         "Entity Framework",
         "Agile",
-        "Scrum"
+        "Scrum",
+        "Github Copilot",
+        "Automated Testing"
     ]
 }

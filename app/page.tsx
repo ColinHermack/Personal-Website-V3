@@ -18,9 +18,17 @@ export default function Page() {
         alt='Picture of Colin Hermack'
       />
       <p className="mb-4">
-        I'm a third year computer science and math student at Purdue University. I'm interested in computer security and experienced in full-stack
-        software engineering. I'm currently working as a software engineering intern at W.R. Berkley Corporation and as a web developer for Purdue's
-        College of Science. I'll also be a teaching assistant for the Data Mine at Purdue in the fall.
+        I'm Colin Hermack, a third year computer science and mathematics student at Purdue University. I'm currently
+        working as a part time software engineer at W.R. Berkley Corporation, where I've built internal tools for
+        tracking and monitoring performance of remote computing jobs and worked on custom AI tooling for our insurance
+        partners.
+      </p>
+      <p className='my-4'>
+        I'm interested in computer security and data science, and I'm currently a teaching assistant for Purdue's Data
+        Mine learning community. I'm also the webmaster of the Purdue Outing Club.
+      </p>
+      <p className='my-4'>
+        My other interests include exercising, fishing, backpacking, plane spotting, and playing with radio equipment.
       </p>
       <h2 className='text-xl font-semibold tracking-tight mb-4 mt-4'>Recent Projects</h2>
       <RecentProjects numProjects={3} />
