@@ -1,5 +1,5 @@
 {
-    "Description": "Software engineering intern at W.R. Berkely Corp. Computer science and mathematics student at Purdue.",
+    "Description": "Part time software engineer at W.R. Berkley Corporation. Computer science and mathematics undergrad at Purdue seeking internship opportunities for summer 2026.",
     "Education": 
     [
         {
@@ -31,15 +31,42 @@
     "Experience": 
     [
         {
+            "Title": "Teaching Assistant",
+            "Company": "The Data Mine — Purdue University",
+            "Location:": "West Lafayette, IN",
+            "Start": "Aug 2025",
+            "End": "Present",
+            "Notes":
+            [
+                "TA for 200 level Data Mine classes",
+                "Grade student projects and provide constructive feedback",
+                "Answer student questions in weekly in-person seminars",
+                "Answer student questions via online forum"
+            ]
+        },
+        {
+            "Title": "Full Stack Software Engineer",
+            "Company": "W.R. Berkley Corporation",
+            "Location": "Remote",
+            "Start": "August 2025",
+            "End": "Present",
+            "Notes":
+            [
+                "Part time software engineer working on the ESTech operating unit's AI team to build AI tools for underwriting",
+                "Work on an engineering team utilizing Agile methodology"
+            ]
+        },
+        {
             "Title": "Software Engineering Intern",
             "Company": "W.R. Berkley Corporation",
             "Location": "Moorestown, NJ",
             "Start": "June 2025",
-            "End": "Present",
+            "End": "August 2025",
             "Notes": 
             [
                 "Implemented a software development kit in .NET Standard for the the integration of monitoring with remote job source code",
                 "Wrote end-to-end testing suite protecting critical infrastructure for internal tools supporting $100 million+ per month in insurance sales",
+                "Built backend infrastructure for statistical analysis of remote job data",
                 "Utilized agile methodology and the Kanban framework while working in an engineering team."
             ]
         },
@@ -48,7 +75,7 @@
             "Company": "Purdue University College of Science",
             "Location": "Remote",
             "Start": "May 2025",
-            "End": "Present",
+            "End": "August 2025",
             "Notes": 
             [
                 "Design new webpages and maintain current webpages for the career services division of the Purdue College of Science"

@@ -24,11 +24,13 @@ export default function Page() {
         partners.
       </p>
       <p className='my-4'>
-        I'm interested in computer security and data science, and I'm currently a teaching assistant for Purdue's Data
-        Mine learning community. I'm also the webmaster of the Purdue Outing Club.
+        I'm interested in computer security and data science, and I'm currently a teaching assistant for 
+        Purdue's <a href='https://datamine.purdue.edu' className='text-slate-600 underline' >Data Mine</a> learning community. 
+        I'm also the webmaster of the <a href='https://www.purdueoutingclub.com' className='text-slate-600 underline' >Purdue Outing Club</a>, 
+        and I've designed pages for Purdue's <a href='https://www.purdue.edu/science/' className='text-slate-600 underline' >College of Science</a> website.
       </p>
       <p className='my-4'>
-        My other interests include exercising, fishing, backpacking, plane spotting, and playing with radio equipment.
+        My other interests include exercising, fishing, backpacking, and working on my bicycle.
       </p>
       <h2 className='text-xl font-semibold tracking-tight mb-4 mt-4'>Recent Projects</h2>
       <RecentProjects numProjects={3} />
