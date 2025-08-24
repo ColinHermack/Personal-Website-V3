@@ -25,9 +25,9 @@ export default function Page() {
       </p>
       <p className='my-4'>
         I'm interested in computer security and data science, and I'm currently a teaching assistant for 
-        Purdue's <a href='https://datamine.purdue.edu' className='text-slate-600 underline' >Data Mine</a> learning community. 
-        I'm also the webmaster of the <a href='https://www.purdueoutingclub.com' className='text-slate-600 underline' >Purdue Outing Club</a>, 
-        and I've designed pages for Purdue's <a href='https://www.purdue.edu/science/' className='text-slate-600 underline' >College of Science</a> website.
+        Purdue's <a href='https://datamine.purdue.edu' className='text-slate-600 underline dark:text-slate-300' >Data Mine</a> learning community. 
+        I'm also the webmaster of the <a href='https://www.purdueoutingclub.com' className='text-slate-600 underline dark:text-slate-300' >Purdue Outing Club</a>, 
+        and I've designed pages for Purdue's <a href='https://www.purdue.edu/science/' className='text-slate-600 underline dark:text-slate-300' >College of Science</a> website.
       </p>
       <p className='my-4'>
         My other interests include exercising, fishing, backpacking, and working on my bicycle.
