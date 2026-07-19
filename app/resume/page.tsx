@@ -1,4 +1,6 @@
 import data from './data.json' assert { type: 'json' };
+import Button from '@heroui/button';
+import Link from '@heroui/link';
 
 export const metadata = {
   title: 'Resume',
@@ -10,6 +12,17 @@ export default async function Page() {
   return (
     <>
       <h1 className="font-semibold text-2xl mb-8 tracking-tight">Resume</h1>
+
+      <Button
+        as={Link}
+        href='/resume.pdf'
+        target='_blank'
+        className='mb-4'
+      >
+        View as PDF
+      </Button>
+
+
       <p>{resumeData['Description']}</p>
       <h2 className='font-semibold text-2xl mt-4 mb-4 tracking-tight'>Education</h2>
       <ul>{
