@@ -17,20 +17,16 @@ export default function Page() {
         height={80}
         alt='Picture of Colin Hermack'
       />
-      <p className="mb-4">
-        I'm Colin Hermack, a third year computer science and mathematics student at Purdue University. I'm currently
-        working as a part time software engineer at W.R. Berkley Corporation, where I've built internal tools for
-        tracking and monitoring performance of remote computing jobs and worked on custom AI tooling for our insurance
-        partners.
+      <p className='mb-4'>
+        I am a software engineering intern at W.R. Berkley Corporation, where I currently work on modernization of
+        legacy underwriting systems.
+      </p>
+      <p className='mb-4'>
+        I also like building apps on my own. I maintain the website and member management system of the Purdue Outing Club,
+        and I recently started building iOS apps.
       </p>
       <p className='my-4'>
-        I'm interested in computer security and data science, and I'm currently a teaching assistant for 
-        Purdue's <a href='https://datamine.purdue.edu' className='text-slate-600 underline dark:text-slate-300' >Data Mine</a> learning community. 
-        I'm also the webmaster of the <a href='https://www.purdueoutingclub.com' className='text-slate-600 underline dark:text-slate-300' >Purdue Outing Club</a>, 
-        and I've designed pages for Purdue's <a href='https://www.purdue.edu/science/' className='text-slate-600 underline dark:text-slate-300' >College of Science</a> website.
-      </p>
-      <p className='my-4'>
-        My other interests include exercising, fishing, backpacking, and working on my bicycle.
+        Outside of programming, I like to travel, work out, and go on outdoor adventures.
       </p>
       <h2 className='text-xl font-semibold tracking-tight mb-4 mt-4'>Recent Projects</h2>
       <RecentProjects numProjects={3} />

@@ -30,7 +30,7 @@
 }
 
 html {
-  font-size: 87.5%; /* shrinks every rem-based Tailwind text size site-wide */
+  font-size: 90%;
   min-width: 360px;
   min-height: 100vh;
 }
