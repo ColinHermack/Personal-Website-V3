@@ -153,5 +153,31 @@
                 "Description": "Introduction to neural networks, hyperparameter tuning, computer vision, and ethics in neural networks."
             }
         ]
+    },
+    {
+        "Semester": 6,
+        "Coursework": 
+        [
+            {
+                "Number": "CS381",
+                "Name": "Fundamental Algorithms",
+                "Description": "Induction and Recursion, Searching and Sorting, Graph Theory, NP-Completeness, Network Flow, Randomized Algorithms, Hashing"
+            },
+            {
+                "Number": "CS426",
+                "Name": "Computer Security",
+                "Description": "Overview of computer security topics. Encryption, forms of malicious code, network security, ethics."
+            },
+            {
+                "Number": "MA425",
+                "Name": "Abstract Algebra",
+                "Description": "Fundamental properties of integers, polynomials, groups, rings, and fields"
+            },
+            {
+                "Number": "EAPS105",
+                "Name": "The Planets",
+                "Description": "This course deals with current knowledge of the physical, chemical, and geological nature of the planets and their atmospheres derived in part from data provided by manned and unmanned space probes and other techniques. Similarities and differences between the earth and other planets are described and discussed within the role of planetary formation."
+            }
+        ]
     }
 ]
