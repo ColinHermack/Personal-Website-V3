@@ -19,7 +19,7 @@ export default function Page() {
       />
       <p className='mb-4'>
         I am a software engineering intern at W.R. Berkley Corporation, where I currently work on modernization of
-        legacy underwriting systems.
+        legacy underwriting systems. I am graduating from Purdue University in December 2026 with degrees in computer science and mathematics.
       </p>
       <p className='mb-4'>
         I also like building apps on my own. I maintain the website and member management system of the Purdue Outing Club,
