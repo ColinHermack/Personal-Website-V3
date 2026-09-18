@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { getProjects } from 'app/projects/utils';
+import { Tag } from 'app/components/tag';
 
 export function Projects() {
     let projects = getProjects();
@@ -24,6 +25,13 @@ export function Projects() {
                     {post.metadata.title}
                   </h2>
                   <p className='max-w-[95%]'>{post.metadata.summary}</p>
+                  {post.metadata.techStack && post.metadata.techStack.length > 0 && (
+                    <div className="flex flex-row flex-wrap gap-1.5 mt-2">
+                      {post.metadata.techStack.map((tech) => (
+                        <Tag key={tech}>{tech}</Tag>
+                      ))}
+                    </div>
+                  )}
                 </div>
               </Link>
             ))}

@@ -7,7 +7,8 @@ type Metadata = {
   summary: string
   image?: string,
   github?: string,
-  deployment?: string
+  deployment?: string,
+  techStack?: string[]
 }
 
 function parseFrontmatter(fileContent: string) {
@@ -22,7 +23,12 @@ function parseFrontmatter(fileContent: string) {
     let [key, ...valueArr] = line.split(': ')
     let value = valueArr.join(': ').trim()
     value = value.replace(/^['"](.*)['"]$/, '$1') // Remove quotes
-    metadata[key.trim() as keyof Metadata] = value
+
+    if (key.trim() === 'techStack') {
+      metadata.techStack = value.split(',').map((tech) => tech.trim()).filter(Boolean)
+    } else {
+      metadata[key.trim() as Exclude<keyof Metadata, 'techStack'>] = value
+    }
   })
 
   return { metadata: metadata as Metadata, content }
@@ -53,4 +59,10 @@ function getMDXData(dir) {
 
 export function getProjects() {
   return getMDXData(path.join(process.cwd(), 'app', 'projects', 'posts'))
+}
+
+export function getAllTechStack() {
+  let projects = getProjects()
+  let allTech = projects.flatMap((project) => project.metadata.techStack ?? [])
+  return Array.from(new Set(allTech))
 }
