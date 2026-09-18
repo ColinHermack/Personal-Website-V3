@@ -1,6 +1,8 @@
 import Image from 'next/image';
 import Headshot from './/assets/headshot.jpg';
 import { RecentProjects } from 'app/components/projects';
+import { getAllTechStack } from 'app/projects/utils';
+import { Tag } from 'app/components/tag';
 import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 
 
@@ -30,6 +32,12 @@ export default function Page() {
       </p>
       <h2 className='text-xl font-semibold tracking-tight mb-4 mt-4'>Recent Projects</h2>
       <RecentProjects numProjects={3} />
+      <h2 className='text-xl font-semibold tracking-tight mb-4 mt-4'>Technologies I've Used</h2>
+      <div className='flex flex-row flex-wrap gap-1.5 mb-4'>
+        {getAllTechStack().map((tech) => (
+          <Tag key={tech}>{tech}</Tag>
+        ))}
+      </div>
       <h2 className='text-xl font-semibold tracking-tight mb-4 mt-4'>Contact</h2>
       <p>Check out my GitHub page, LinkedIn profile, or send me an email here.</p>
       <div className='flex flex-row content-left items-center mt-5 mb-5 text-slate-800'>
