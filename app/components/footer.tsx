@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { FaGithub } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 
@@ -26,6 +27,12 @@ export default function Footer() {
           </a>
         </li>
       </ul>
+      <Link
+        className="flex items-center transition-all hover:text-neutral-600 dark:text-white dark:hover:text-blue-200"
+        href="/photos"
+      >
+        Photo Gallery
+      </Link>
       <p className="mt-8">
         © 2024 MIT Licensed
       </p>
