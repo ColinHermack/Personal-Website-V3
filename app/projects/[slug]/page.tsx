@@ -5,6 +5,7 @@ import { baseUrl } from 'app/sitemap'
 import Link from 'next/link'
 import { FaGithub } from 'react-icons/fa';
 import { FaServer } from 'react-icons/fa';
+import { Tag } from 'app/components/tag';
 
 export async function generateStaticParams() {
   let projects = getProjects()
@@ -93,6 +94,13 @@ export default function Blog({ params }) {
         {post.metadata.deployment ? <div className='hover:text-neutral-600 transition-all'><Link href={post.metadata.deployment}><FaServer /></Link></div> : null}
       </div>
       <p className='mt-4 mb-4'>{post.metadata.summary}</p>
+      {post.metadata.techStack && post.metadata.techStack.length > 0 && (
+        <div className="flex flex-row flex-wrap gap-1.5 mb-4">
+          {post.metadata.techStack.map((tech) => (
+            <Tag key={tech}>{tech}</Tag>
+          ))}
+        </div>
+      )}
       <article className="prose">
         <CustomMDX source={post.content} />
       </article>
