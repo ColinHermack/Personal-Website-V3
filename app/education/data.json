@@ -169,7 +169,7 @@
                 "Description": "Overview of computer security topics. Encryption, forms of malicious code, network security, ethics."
             },
             {
-                "Number": "MA425",
+                "Number": "MA453",
                 "Name": "Abstract Algebra",
                 "Description": "Fundamental properties of integers, polynomials, groups, rings, and fields"
             },
@@ -177,6 +177,32 @@
                 "Number": "EAPS105",
                 "Name": "The Planets",
                 "Description": "This course deals with current knowledge of the physical, chemical, and geological nature of the planets and their atmospheres derived in part from data provided by manned and unmanned space probes and other techniques. Similarities and differences between the earth and other planets are described and discussed within the role of planetary formation."
+            }
+        ]
+    },
+    {
+        "Semester": 7,
+        "Coursework":
+        [
+            {
+                "Number": "CS355",
+                "Name": "Cryptography",
+                "Description": "An introduction to cryptography basics: Classic historical ciphers including Caesar, Vigenere and Vernam ciphers; modern ciphers including DES, AES, Pohlig-Hellman, and RSA; signatures and digests; key exchange; simple protocols; block and stream ciphers; network-centric protocols."
+            },
+            {
+                "Number": "CS422",
+                "Name": "Computer Networks",
+                "Description": "An overview of many forms of networks and data communication"
+            },
+            {
+                "Number": "MA425",
+                "Name": "Complex Analysis",
+                "Description": "Complex numbers and complex-valued functions; differentiation of complex functions; power series, uniform convergence; integration, contour integrals; elementary conformal mapping."
+            },
+            {
+                "Number": "EAPS106",
+                "Name": "Geosciences in Cinema",
+                "Description": "An introduction to earth and atmospheric sciences based on depictions in popular and documentary cinema. Topics will include: earthquakes, volcanoes, severe weather, dinosaurs, climate change, evolution, meteor impacts, and earth's interior."
             }
         ]
     }
